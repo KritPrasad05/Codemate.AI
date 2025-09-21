@@ -81,7 +81,8 @@ python main.py gui
 ## DEMO
 👉(video)[]
 
-##Acknowledgements
+## Acknowledgements
+
 - Built as part of CodeMate Hackathon 2025 @ SRMIST
 - Thanks to Codemate.ai and SRMIST for the opportunity
 - Powered by Python 💙
