@@ -79,7 +79,7 @@ python main.py gui
 ```
 
 ## DEMO
-👉(video)[]
+👉[video](https://drive.google.com/file/d/1lgRXfhVRaoLbLsLUe5QR9chs4BVN0YHG/view?usp=sharing)
 
 ## Acknowledgements
 
