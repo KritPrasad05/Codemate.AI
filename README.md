@@ -40,3 +40,25 @@ This project mimics a real-world command-line environment, supporting **command 
 
 ## 📂 Project Structure
 
+<code>
+pyterminal/
+│── main.py # Entry point (CLI / GUI mode)
+│── cli.py # Command-line interface loop
+│── gui.py # Tkinter GUI interface
+│── core/
+│ ├── parser.py # Command parsing, pipes, chaining
+│ ├── executor.py # Command execution logic
+│ └── completer.py # Autocomplete (future enhancement)
+│── requirements.txt # Dependencies
+
+</code>
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/<your-username>/pyterminal.git
+cd pyterminal
+```
