@@ -40,18 +40,17 @@ This project mimics a real-world command-line environment, supporting **command 
 
 ## 📂 Project Structure
 
-<code>
+```
 pyterminal/
 │── main.py # Entry point (CLI / GUI mode)
 │── cli.py # Command-line interface loop
 │── gui.py # Tkinter GUI interface
-│── core/
-│ ├── parser.py # Command parsing, pipes, chaining
-│ ├── executor.py # Command execution logic
-│ └── completer.py # Autocomplete (future enhancement)
+│── parser.py # Command parsing, pipes, chaining
+│── executor.py # Command execution logic
+│── completer.py # Autocomplete (future enhancement)
 │── requirements.txt # Dependencies
 
-</code>
+```
 
 ---
 
@@ -62,3 +61,30 @@ pyterminal/
 git clone https://github.com/<your-username>/pyterminal.git
 cd pyterminal
 ```
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run in CLI mode
+
+```bash
+python main.py
+```
+### 4. Run in GUI mode
+
+```bash
+python main.py gui
+```
+
+## DEMO
+👉(video)[]
+
+##Acknowledgements
+- Built as part of CodeMate Hackathon 2025 @ SRMIST
+- Thanks to Codemate.ai and SRMIST for the opportunity
+- Powered by Python 💙
+
+
+
